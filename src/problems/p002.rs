@@ -1,6 +1,6 @@
 pub fn solve(verb: bool) {
     if verb {
-        println!("This is function 2");
+        println!("This is problem 2");
     }
 
     let mut sum = 0;
