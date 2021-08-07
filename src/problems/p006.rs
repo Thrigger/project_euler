@@ -2,7 +2,7 @@ pub fn solve(verb: bool) {
     let max_range = 100;
 
     if verb {
-        println!("This is problem 5");
+        println!("This is problem 6");
     }
 
     let mut sum_of_square = 0;
