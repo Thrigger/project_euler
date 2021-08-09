@@ -10,4 +10,4 @@ dependencies = [
 [[package]]
 name = "thrigger_primes"
 version = "0.1.0"
-source = "git+https://github.com/Thrigger/thrigger_primes.git?branch=main#4620e3c6f004ea8e5f7928a7737cedb5b5706f6b"
+source = "git+https://github.com/Thrigger/thrigger_primes.git?branch=main#ce58d6312d8c963f7c81e4b84db86822ce97802e"

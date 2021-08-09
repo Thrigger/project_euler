@@ -6,6 +6,8 @@ mod p005;
 mod p006;
 mod p007;
 
+mod p010;
+
 pub fn solve(problem: i32, verbose: bool) {
     match problem {
         1 => p001::solve(verbose),
@@ -15,6 +17,7 @@ pub fn solve(problem: i32, verbose: bool) {
         5 => p005::solve(verbose),
         6 => p006::solve(verbose),
         7 => p007::solve(verbose),
+        10 => p010::solve(verbose),
         _ => (),
     };
 }
