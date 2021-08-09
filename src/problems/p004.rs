@@ -1,9 +1,5 @@
-pub fn solve(verb: bool) {
+pub fn solve() -> u64 {
     let max_value = 999;
-
-    if verb {
-        println!("This is problem 4");
-    }
 
     let mut current_value =  max_value * max_value;
 
@@ -29,10 +25,6 @@ pub fn solve(verb: bool) {
         }
 
         if is_palindrom {
-            if verb {
-                println!("{} is a palindrom", current_value);
-            }
-
             if is_multiple(current_value, max_value) {
                 break;
             } else {
@@ -42,10 +34,10 @@ pub fn solve(verb: bool) {
         
     }
 
-    println!("{}", current_value);
+    current_value
 }
 
-fn is_multiple(val: i64, max_val: i64) -> bool {
+fn is_multiple(val: u64, max_val: u64) -> bool {
     let mut i = max_val;
     
     while i > 0 {

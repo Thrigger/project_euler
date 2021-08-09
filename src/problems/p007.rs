@@ -1,14 +1,10 @@
 extern crate thrigger_primes;
 
-pub fn solve(verb: bool) {
+pub fn solve() -> u64 {
     let number_of_primes = 10001;
+
     /* I know 2 is a prime so start at 2 */
     let mut found_primes = 1;
-
-    if verb {
-        println!("This is problem 7");
-    }
-
     let mut current_prime = 2;
 
     while found_primes < number_of_primes {
@@ -17,6 +13,6 @@ pub fn solve(verb: bool) {
         found_primes += 1;
     }
 
-    println!("{}", current_prime);
+    current_prime
 }
 

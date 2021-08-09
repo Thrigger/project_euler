@@ -1,13 +1,9 @@
-pub fn solve(verb: bool) {
+pub fn solve() -> u64 {
     let max_test_value = 20;
-
-    if verb {
-        println!("This is problem 5");
-    }
 
     let mut current_value = max_test_value;
 
-    let solution = loop {
+    loop {
         let mut is_solution = true;
         for i in (1..max_test_value).rev() {
             if current_value % i != 0 {
@@ -23,6 +19,6 @@ pub fn solve(verb: bool) {
         current_value += max_test_value;
     };
 
-    println!("{}", current_value);
+    current_value
 }
 

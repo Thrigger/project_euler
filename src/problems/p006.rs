@@ -1,9 +1,5 @@
-pub fn solve(verb: bool) {
+pub fn solve() -> u64 {
     let max_range = 100;
-
-    if verb {
-        println!("This is problem 6");
-    }
 
     let mut sum_of_square = 0;
     for i in 1..max_range + 1 {
@@ -16,6 +12,8 @@ pub fn solve(verb: bool) {
     }
     square_of_sum *= square_of_sum;
 
-    println!("{}", square_of_sum - sum_of_square);
+    let result = square_of_sum - sum_of_square;
+
+    result
 }
 
