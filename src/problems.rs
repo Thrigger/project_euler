@@ -7,6 +7,7 @@ mod p006;
 mod p007;
 
 mod p010;
+mod p011;
 
 pub fn solve(problem: i32, verbose: bool) -> u64 {
     let solution = match problem {
@@ -18,6 +19,7 @@ pub fn solve(problem: i32, verbose: bool) -> u64 {
         6 => p006::solve(),
         7 => p007::solve(),
         10 => p010::solve(),
+        11 => p011::solve(),
         _ => 0,
     };
 

@@ -33,6 +33,7 @@ mod tests {
         assert_eq!(problems::solve(6, false), 25164150);
         assert_eq!(problems::solve(7, false), 104743);
         assert_eq!(problems::solve(10, false), 142913828922);
+        assert_eq!(problems::solve(11, false), 70600674);
     }
 }
 
