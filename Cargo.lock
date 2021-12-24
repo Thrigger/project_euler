@@ -5,9 +5,15 @@ name = "project_euler"
 version = "0.1.0"
 dependencies = [
  "thrigger_primes",
+ "thrigger_support",
 ]
 
 [[package]]
 name = "thrigger_primes"
 version = "0.1.0"
 source = "git+https://github.com/Thrigger/thrigger_primes.git?branch=main#02576f396ad123190c827aa32aaacdf546f41af3"
+
+[[package]]
+name = "thrigger_support"
+version = "0.1.0"
+source = "git+https://github.com/Thrigger/thrigger_support.git?branch=main#8a854e1c47542372aeba36f3bf12d83168915661"
