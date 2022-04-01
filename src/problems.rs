@@ -8,6 +8,7 @@ mod p007;
 
 mod p010;
 mod p011;
+mod p015;
 
 mod p029;
 
@@ -22,6 +23,7 @@ pub fn solve(problem: i32, verbose: bool) -> u64 {
         7   => p007::solve(),
         10  => p010::solve(),
         11  => p011::solve(),
+        15  => p015::solve(),
         29  => p029::solve(),
         _   => 0,
     };

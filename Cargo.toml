@@ -8,4 +8,4 @@ edition = "2018"
 
 [dependencies]
 thrigger_primes  = {git = "https://github.com/Thrigger/thrigger_primes.git", branch = "main"}
-thrigger_support = {git = "https://github.com/Thrigger/thrigger_support.git", branch = "main"}
+thrigger_support = {git = "https://github.com/Thrigger/thrigger_support.git", version = "0.2.1", branch = "main"}

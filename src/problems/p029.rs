@@ -1,14 +1,16 @@
-extern crate support;
+extern crate thrigger_support;
 
 pub fn solve() -> u64 {
     let a_max = 5;
     let b_max = 5;
 
+    /* TODO 
     let mut results = vec![];
 
     for a in 0..a_max {
         for b in 0..b_max {
-            let product = thrigger_support::pow(a, b);
+            /* TODO */
+            let product = 0; //thrigger_support::pow(a, b);
 
             let mut unique = true;
             for each in results {
@@ -21,7 +23,8 @@ pub fn solve() -> u64 {
                 results.push(product);
             }
         }
-    }
-    result.len()
+    } 
+    results.len() as u64*/
+        0
 }
 
